@@ -1,5 +1,14 @@
-.saberelborde {
-  border: 10px solid red;
-  display: flex;
-  justify-content: center;
+body{
+    margin: 0px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
