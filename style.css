@@ -65,3 +65,21 @@ ul {
   padding: 100px;
   margin: 100px;
 }
+
+.ContenedorImagen{
+width: 240px;
+height: 350px;
+display: flex;
+}
+.ContenedorImagen > img{
+  object-fit: cover;
+  width: 100%;
+}
+
+.contenedordetarjeta{
+  display: flex;
+}
+
+.tarjeta{
+  margin: 10px;
+}
