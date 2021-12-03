@@ -2,7 +2,8 @@
   background-color: rgb(220, 231, 231);
 }
 .footer {
-  border: 10px solid;
+  border: 5px solid;
+  margin-top: 246px;
 }
 body {
   margin: 0px;
@@ -66,20 +67,42 @@ ul {
   margin: 100px;
 }
 
-.ContenedorImagen{
-width: 240px;
-height: 350px;
-display: flex;
+.ContenedorImagen {
+  width: 400px;
+  height: 350px;
+  display: flex;
+  margin-bottom: 10px;
 }
-.ContenedorImagen > img{
+.ContenedorImagen:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+.ContenedorImagen > img {
   object-fit: cover;
   width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
-.contenedordetarjeta{
+.contenedordetarjeta {
   display: flex;
 }
 
-.tarjeta{
+.tarjeta {
   margin: 10px;
+  background-color: rgba(78, 78, 90);
+  box-shadow: 5px 10px 5px gray;
+  border-radius: 10px;
+}
+
+.TituloTarjeta {
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.TituloPagina {
+  display: flex;
+  justify-content: center;
 }
